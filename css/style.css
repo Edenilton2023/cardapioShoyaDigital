@@ -1,0 +1,208 @@
+:root {
+    --brand_color: #7CA2F4;
+    --dark: #121214;
+    --white_soft: #F3F7FF;
+    --white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 415px;
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #fa7a1ed3;
+}
+
+.topo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 130px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    font-size: large;
+
+background-image: url(../images/topo.png);
+    background-color: var(--white_soft);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.botoes {
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+
+
+}
+
+button {
+    background-color: #f3f7ff0f;
+    color: #ffd900;
+    width: 78px;
+    height: 40px;
+    padding: 2px;
+    font-size: 13px;
+    border-radius: 30px;
+}
+
+button:hover {
+    cursor: pointer;
+    border: tomato;
+    box-shadow: 0px 5px 5px #fa7a1eb3;
+    background-color: #f3f7ff5f;
+
+
+}
+
+main {
+    width: 100%; 
+    max-width: 480px;
+    min-width: 320px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 150px auto;
+
+}
+.pratos{
+  
+    width: 90%;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       
+}
+h1{
+    text-align: center;
+    padding: 15px;
+ 
+}
+
+
+
+.prato{
+    width: 95%;
+ 
+      
+            align-items: center;
+            justify-content: center;
+          
+          padding: 10px;
+            margin-bottom: 20px;
+          
+}
+
+.nomeQuant{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-direction: column;
+   padding-top: 25px;
+  
+}
+
+.Descricao{
+    
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+background: linear-gradient(to right, rgba(255, 99, 71, 0.576), rgba(255, 99, 71, 0.006));
+}
+
+
+
+
+.imgcont{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+.fotogr{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+   
+}
+
+.fotoPq{
+    width: 130px;
+    padding: 5px;
+
+
+   
+}
+.cont{
+    width: 180px;
+        
+    
+        padding: 10px;
+   
+            padding: 1px;
+            text-align: start;
+          
+}
+h3{
+    padding: 3px;
+}
+ul{
+   
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+        gap: 1.8px;
+  
+      
+
+}
+li {
+
+    background: linear-gradient(to right, rgba(255, 99, 71, 0.554), rgba(255, 99, 71, 0.015));
+    padding: 1.5px;
+    text-align: start; 
+     flex-wrap: wrap;
+}
+p{
+    font-size: 13px;
+        padding: 1px;
+}
+img {
+    display: block;
+    box-sizing: border-box;
+max-width: 100%;
+    height: auto;
+    /* Mantém a proporção da imagem */
+    display: block;
+    /* Remove espaço em branco abaixo da imagem */
+}
+
+
+  .Desativo{
+      display: none;
+  }
+
+  .Ativa {
+      display: block;
+  }
