@@ -73,7 +73,7 @@ button:hover {
 
 main {
     width: 100%; 
-    max-width: 480px;
+    max-width: 360px;
     min-width: 320px;
     margin-top: 150px;
     display: flex;
@@ -154,13 +154,13 @@ grid-template-areas:
     padding-bottom: 5px;
 }
 .fotogr{
- 
+
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 10px;
-    width: 348px;
+    width: 340px;
     border-radius: 5px;
     
    
@@ -170,6 +170,10 @@ grid-template-areas:
 .fotoPq {
     width: 150px;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
 }
 .cont{
 width: 180px;
@@ -204,6 +208,9 @@ p{
         padding: 1px;
 }
 img {
+
+    align-items: center;
+    justify-content: center;
     border-radius: 15px;
     display: block;
     box-sizing: border-box;
@@ -214,11 +221,12 @@ img {
     /* Remove espaço em branco abaixo da imagem */
 }
 .centered {
-    width: 368px;
+  
+
     position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 40%;
+    transform: translate(-40%, -40%);
     z-index: 999;
     background: linear-gradient( rgba(255, 99, 71, 0.569), rgba(255, 99, 71, 0.015));
 
