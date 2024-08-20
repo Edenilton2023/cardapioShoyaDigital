@@ -12,7 +12,7 @@
 }
 
 body {
-    width: 415px;
+    width: 360px;
     height: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: rgba(248, 122, 32, 0.938)
@@ -55,10 +55,10 @@ will-change: transform;
 button {
     background-color: #f3f7ff0f;
     color: #ffea00;
-    width: 78px;
+    width: 60px;
     height: 40px;
     padding: 2px;
-    font-size: 13px;
+    font-size: 11px;
     border-radius: 30px;
 }
 
